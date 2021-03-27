@@ -8,23 +8,27 @@ struct DomainModel {
 ////////////////////////////////////
 // Money
 //
-struct Money {
+public struct Money {
 }
 
 ////////////////////////////////////
 // Job
 //
-class Job {
+public class Job {
+    public enum JobType {
+        case Hourly(Double)
+        case Salary(UInt)
+    }
 }
 
 ////////////////////////////////////
 // Person
 //
-class Person {
+public class Person {
 }
 
 ////////////////////////////////////
 // Family
 //
-class Family {
+public class Family {
 }
